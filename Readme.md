@@ -19,7 +19,7 @@ This is a simple **Text-to-Speech (TTS) Converter API** built using **Node.js** 
 ## 📦 Installation
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/text-to-speech-api.git
+git clone https://github.com/adel-eleraky/text-to-speech.git
 cd text-to-speech-api
 ```
 
