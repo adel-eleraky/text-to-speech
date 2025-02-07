@@ -20,7 +20,7 @@ This is a simple **Text-to-Speech (TTS) Converter API** built using **Node.js** 
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/adel-eleraky/text-to-speech.git
-cd text-to-speech-api
+cd text-to-speech
 ```
 
 ### 2️⃣ Install Dependencies
@@ -46,8 +46,14 @@ Server will run on **http://localhost:3000**
 }
 ```
 
-#### Response:
-- **MP3 file URL** (to download or play audio)
+#### Response Body (JSON):
+```json
+{
+  "status": "success",
+  "message": "Audio generated successfully",
+  "filename": audio_file_name_here
+}
+```
 
 ## 🎨 Frontend Usage
 A simple frontend (`index.html`) is included in the **public/** folder:
