@@ -12,7 +12,7 @@ This is a simple **Text-to-Speech (TTS) Converter API** built using **Node.js** 
 
 ## 🛠 Tech Stack
 - **Backend:** Node.js, Express.js
-- **Text-to-Speech Engine:** Google Text-to-Speech (gtts)
+- **Text-to-Speech Engine:** Google Text-to-Speech ([gtts](https://www.npmjs.com/package/gtts))
 - **Frontend:** HTML, JavaScript, Fetch API
 - **Storage:** Local file system (for MP3 files)
 
