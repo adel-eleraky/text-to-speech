@@ -14,6 +14,7 @@ async function convertTextToSpeech() {
         audioPlayer.src = `output/${data.filename}`;
         audioPlayer.style.display = "block";
         audioPlayer.play();
+        
     } catch (error) {
         console.error("Error:", error);
         alert("Failed to generate speech!");
